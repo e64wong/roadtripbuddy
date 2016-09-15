@@ -8,7 +8,7 @@ var path = require("path");
 var app = express();
 var server = http.createServer(app);
 
-//app.use(express.static("public"));
+app.use(express.static("public"));
 //app.use(bodyParser.json());
 
 /****************************** Express Routes ********************************/
