@@ -9,9 +9,18 @@
 	color:#ffffff;
 }
 
+.btn-spotify:hover{
+	color: #ffffff;
+	box-shadow: 1px 4px 8px rgba(0, 0, 0, .2);
+}
+
+.btn-spotify:focus{
+	color:#ffffff;
+}
+
 
 .responsive-header{
-	font-size:65px;
+	font-size:75px;
 }
 
 .responsive-subheader{
@@ -19,20 +28,32 @@
 	color:#1ED760;
 }
 
+.responsive-subheader-large{
+	font-size:60px;
+}
+
 @media only screen and (max-width: 1200px) {
 	.responsive-header{
-		font-size:55px;
+		font-size:60px;
 	}
 	.responsive-subheader{
 		font-size:30px;
+	}
+	
+	.responsive-subheader-large{
+		font-size:40px;
 	}
 }
 	
 @media only screen and (max-width: 700px) {
 	.responsive-header{
-		font-size:35px;
+		font-size:40px;
 	}
 	.responsive-subheader{
 		font-size:20px;
+	}
+
+	.responsive-subheader-large{
+		font-size:30px;
 	}
 }
